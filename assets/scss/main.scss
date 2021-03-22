@@ -1,0 +1,99 @@
+ul, li, body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Muller', 'Montserrat', sans-serif, Arial;
+    padding-top: 98px;
+    background: url("/img/bg.jpg");
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+.wrapper.content {
+    box-shadow: 0 20px 51px rgba(0, 0, 0, 0.03);
+    padding: 20px 8px;
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content {
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 20px 51px rgba(0,0,0,.03);
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-right: 8px;
+    padding-left: 8px;
+    transition: all .3s ease;
+
+    .page-title {
+        font-size: 34px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 45px !important;
+    }
+}
+.content.wrapper.block {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-height: 100px;
+}
+.wrapper.block {
+    margin-top: 39px;
+}
+.breadcrumps-lic {
+    background: url("/img/breadcrumps.png") center center no-repeat;
+    background-size: auto;
+    height: 8px;
+    width: 10px;
+    display: inline-block;
+    background-size: contain;
+}
+.breadcrumps a,
+.crumps-dop  {
+    font-weight: 400;
+    color: #505050;
+    font-size: 13px;
+    line-height: 14px;
+    transition: all .2s ease;
+}
+.breadcrumps a:hover {
+    opacity: .8;
+}
+.page-section {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.wrapper.content.page {
+    display: block;
+}
+.error {
+    color: #cacaca;
+    text-align: center;
+    width: 100%;
+    margin: 100px 0;
+}

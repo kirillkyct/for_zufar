@@ -1,0 +1,24 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "vue-gallery": "^2.0.1",
+    "vue-slick-carousel": "^1.0.6"
+  },
+  "devDependencies": {
+    "loader": "^2.1.1",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1"
+  }
+}
